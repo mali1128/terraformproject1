@@ -34,7 +34,7 @@ resource "aws_subnet" "ali_subnet2" {
   map_public_ip_on_launch = true 
 
   tags = {
-    Name = "ali_subnet2"
+    Name = "alisubnet2"
   }
 }
 
