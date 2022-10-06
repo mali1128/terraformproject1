@@ -41,7 +41,7 @@ resource "aws_subnet" "ali_subnet2" {
 resource "aws_route_table" "aliRT2" {
   vpc_id = aws_vpc.alivpc6.id
   tags = {
-      name = "aliRT3"
+      name = "aliRT4"
   }
     route {
     cidr_block = "0.0.0.0/0"
